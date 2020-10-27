@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Open+Sans:wght@300&display=swap%27');
+
+*{
+        margin: 0;
+         padding: 0;
+}
+
+.topo{
+    width: 100%;
+    height: 60px;
+    background-color: #F9003D;
+}
+
+.topo nav{
+    width: 1200px;
+    height: 60px;
+    /*background-color: #ccc;*/
+    margin:0 auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.topo nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    /*background-color: blue;*/
+    padding: 16px 50px; 
+    border-bottom: solid 5px #fff;
+}
+.topo nav a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+.topo nav ul{
+    width: 600px;
+    height: 60px;
+    /*background-color: lime;*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 740px;
+    background-image: url("../images/assets/img/imagem-fundo-banner.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.content-alinhamento{
+    width: 1200px;
+    height: 100%;
+    /*background-color: gray;*/
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.banner_text{
+    width: 570px;
+    height: 500px;
+    /*background-color: blueviolet;*/
+}
+.banner_text h1{
+    font-size: 98px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    border-bottom: solid 1px #ffaf00;
+    padding-bottom: 20px;
+}
+.banner_text p{
+    font-size: 53px;
+    text-align: justify;
+    color: #f9003d;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner_text span{
+    color:#f9003d ;
+}
+/*sobre*/
+
+.bk_sobre{
+    width: 100%;
+    height: 720px;
+    background-color:#080324;
+}
+
+.sobre{
+    width: 1200px;
+    height: 100%;
+    /*background-color: grey;*/
+    margin: 0 auto;
+
+}
+
+.sobre h2{
+    font-size: 64px;
+    color: #f9003d;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 65px;
+}
+
+.conteudo_sobre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_sobre img{
+    width: 491px;
+}
+.texto_sobre{
+    width: 600px;
+}
+
+.texto_sobre h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    color: #ffaf00;
+    line-height: 70px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.tag{
+    font-family: 'courier prime', monospace;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.texto_sobre p{
+    font-size: 18px;
+    font-family: 'OpenSans', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.bk_info{
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/assets/img/imagem-fundo-info.jpg");
+    background-size: cover;
+}
+
+.info{
+    width: 1200px;
+    height: 100%;
+    /*background-color: grey;*/
+    margin: 0 auto;
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_card h3{
+    color: #fff;
+    font-size: 24px;
+}
+
+.info_card p{
+    width: 290px;
+    font-size: 28px;
+    color: #a259f7;
+    border: solid 1px #a259f7;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.endereço{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/assets/img/imagem-fundo-ranking.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+}
+
+.endereço h2{
+    font-size: 64px;
+    font-family: 'Bebas Neue' cursive;
+    color: #ffaf00;
+}
+
+.texto-endereço{
+    width: 900px;
+    height: 220px;
+    background-color: black;
+    border: solid 2px #340B65;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.texto-endereço p{
+    color: blueviolet;
+    font-size: 24px;
+    margin-left: 100px;
+    
+}
+
+.alinhando-centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-endereço img{
+    position: absolute;
+    top: -60px;
+    left: 550px;
+}
+
+.rodape{
+    width: 100%;
+    height: 80px;
+    background-color: #f9003d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff
+}
