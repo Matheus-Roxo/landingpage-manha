@@ -13,7 +13,8 @@
 }
 
 .topo nav{
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     height: 60px;
     /*background-color: #ccc;*/
     margin:0 auto 0 auto;
@@ -35,7 +36,8 @@
     text-decoration: underline;
 }
 .topo nav ul{
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     height: 60px;
     /*background-color: lime;*/
     list-style-type: none;
@@ -51,7 +53,8 @@
     background-position: bottom;
 }
 .content-alinhamento{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: 100%;
     /*background-color: gray;*/
     margin: auto;
@@ -91,7 +94,8 @@
 }
 
 .sobre{
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     height: 100%;
     /*background-color: grey;*/
     margin: 0 auto;
@@ -112,6 +116,7 @@
 
 .conteudo_sobre img{
     width: 491px;
+    margin-right: 2em;
 }
 .texto_sobre{
     width: 600px;
@@ -148,7 +153,8 @@
 }
 
 .info{
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     height: 100%;
     /*background-color: grey;*/
     margin: 0 auto;
@@ -183,7 +189,8 @@
 }
 
 .content{
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     /*background-color: #fff;*/
@@ -232,3 +239,50 @@
     font-size: 18px;
     color: #ffffff
 }
+@media screen and (max-width: 768px){
+    .topo nav{
+        width: 80%;
+    }
+    .content{
+        width: 80%;
+    }
+    .bk_sobre{
+        height: auto;
+        padding-bottom: 4em;
+    }
+    .conteudo_sobre{
+        flex-direction: column;
+    }
+    .conteudo_sobre img{
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 2em;
+    }
+    .sobre{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info_card p{
+        width: 220px;
+    }
+    .endereço{
+        height: auto;
+        padding: 2em 0;
+    }
+    .texto-endereço{
+        width: 100%;
+        max-width: 900px;
+        flex-direction: column;
+        padding: 2 2em;
+    }
+    .texto-endereço p{
+        margin-left: unset;
+        margin-bottom: 2em;
+    }
+    .texto-endereço img{
+    position: unset;
+    }
+}
+
